@@ -155,15 +155,16 @@ nav ul li a:hover {
     padding: 6px 10px;
     display: inline-block;
     border-radius: 34px;
-    margin-bottom: 20px;
     display: flex;
-    width: 27%;
     margin: auto;
     justify-content: space-around;
+    max-width: 270px;
+    margin-bottom: 20px;
+
 }
 
 #ft {
-    width: 20%;
+    max-width: 220px;
 
 }
 
@@ -283,6 +284,7 @@ nav ul li a:hover {
     .features-grid .feature-card:nth-child(2) {
         grid-row: auto;
     }
+
 }
 
 @media (max-width: 768px) {
