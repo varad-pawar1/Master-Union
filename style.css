@@ -156,6 +156,15 @@ nav ul li a:hover {
     display: inline-block;
     border-radius: 34px;
     margin-bottom: 20px;
+    display: flex;
+    width: 27%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#ft {
+    width: 20%;
+
 }
 
 .icon {
@@ -164,6 +173,7 @@ nav ul li a:hover {
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
 
 .headline {
     font-size: 36px;
